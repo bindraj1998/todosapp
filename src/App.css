@@ -12,7 +12,13 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+   @media only screen and (min-width:70px) and (max-width:420px) {
 
+       .App{
+          animation: infinite 20s linear; 
+       }
+    
+   }
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
